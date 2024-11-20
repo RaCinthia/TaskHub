@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    box-sizing: border-box;
+    background-image: linear-gradient(to right,rgb(153, 212, 114), rgb(238, 229, 134), rgba(237, 126, 126, 0.637));
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+}
+
+.card{
+    width: 555px;
+    height: 825px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255);
+}
+
+input{
+    height: 30px;
+    width: 360px;
+    text-align: center;
+}
+
+.button{
+    width: 209;
+    height: 20;
+    color: aqua;
+}
