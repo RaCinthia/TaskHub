@@ -24,7 +24,7 @@ body{
     margin-top: 8%;
 }
 
-.email{
+.senha{
     height: 55px;
     width: 470px;
     padding: 10px;
@@ -35,7 +35,7 @@ body{
     margin-top: 5%;
 }
 
-.email > input{
+.senha > input{
     height: 45px;
     width: 360px;
     border-radius: 5px;
@@ -45,7 +45,7 @@ body{
     font-size: 20px;
 }
 
-.email > label{
+.senha > label{
     position: absolute;
     left: 12%;
     margin-top: 5px;
@@ -54,13 +54,13 @@ body{
     transition: .5s;
 }
 
-.email input:focus~label {
+.senha input:focus~label {
     top: 1px;
     font-size: 12px;
     color:rgb(29,134,255);
 }
 
-.email input:valid~label {
+.senha input:valid~label {
     top: 1px;
     font-size: 12px;
     color:rgb(0, 0, 0);
@@ -77,7 +77,7 @@ b{
     margin-bottom: 3%;
 }
 
-button{
+#continuar{
     width: 200px;
     height: 55px;
     border: none;
@@ -86,12 +86,28 @@ button{
     color: white;
     font-weight: bold;
     font-size: 16px;
-    margin-bottom: 20.5%;
 }
 
-button:hover{
+#continuar:hover{
     transition: 0.5;
     background-color:rgb(27, 117, 219) ;
+}
+
+#voltar{
+    width: 150px;
+    height: 55px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(209,209,209);
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 3%;
+}
+
+#voltar:hover{
+    transition: 0.5;
+    background-color:rgb(194, 194, 194) ;
 }
 
 .links{
@@ -101,5 +117,5 @@ button:hover{
     color: rgb(25, 115, 218);
     font-size: 18px;
     text-decoration : none;
-    margin-left: 20px;
+    margin-left: 35px;
 }
