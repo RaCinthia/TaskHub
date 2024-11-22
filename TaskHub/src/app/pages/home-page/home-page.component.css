@@ -1,0 +1,44 @@
+body{
+box-sizing: border-box;
+background-color: rgb(255,249,179);
+display: flex;
+justify-content: center;
+gap: 3%;
+}
+
+.container1{
+    height: 850px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 3%;
+    padding: 10px;
+    position: absolute;
+    left: 3%;
+}
+
+.card1{
+    width: 260px;
+    height: 300px;
+    background-color: rgb(255,246,147);
+    padding: 10px;
+}
+
+.card2{
+    background-color: rgb(255,246,147);
+    padding: 10px;
+}
+
+.container{
+    width: 1550px;
+    height: 170px;
+    gap: 5%;
+    display: flex;
+    flex-direction: row;
+}
+
+.card{
+    width: 150px;
+    height: 150px;
+    background-color: black;
+}

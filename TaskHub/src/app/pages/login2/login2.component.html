@@ -15,9 +15,9 @@
                     <img src="assets/Apple.svg">
                 </div>
                 <button id="continuar"> Continuar </button>
-                <button id="voltar"> Voltar </button>
+                <button  [routerLink]="['/login']" id="voltar"> Voltar </button>
                 <div class="links">
-                    <a routerLink="/login"> Crie uma conta </a>
+                    <a> Crie uma conta </a>
                     <b>.</b>
                     <a> Esqueci minha senha </a>
                 </div>
@@ -25,5 +25,3 @@
         </section>
     </main>
 </body>
-
-<router-outlet></router-outlet>

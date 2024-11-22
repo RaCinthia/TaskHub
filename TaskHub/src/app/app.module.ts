@@ -11,6 +11,7 @@ import { LandingPageComponent } from './pages/landing-page/landing-page.componen
 import { HomePageComponent } from './pages/home-page/home-page.component';
 import { LoginComponent } from './pages/login/login.component';
 import { Login2Component } from './pages/login2/login2.component';
+import { Header2Component } from './componentes/header2/header2.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { Login2Component } from './pages/login2/login2.component';
     HomePageComponent,
     LoginComponent,
     Login2Component,
+    Header2Component,
   ],
   imports: [
     BrowserModule,
