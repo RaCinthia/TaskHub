@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-header',
@@ -7,6 +7,12 @@ import { Component } from '@angular/core';
   templateUrl: './header.component.html',
   styleUrl: './header.component.css'
 })
-export class HeaderComponent {
+export class HeaderComponent implements OnInit {
 
+  ngOnInit(): void {
+    window.addEventListener('scroll', ()=> {
+      let nav = document.querySelector('.nav') as HTMLElement;
+      nav?.classList.toggle('scrolled', window.scrollY > 0);
+    });
+  }
 }
