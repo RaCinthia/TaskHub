@@ -1,6 +1,7 @@
 header {
     position: fixed;
     width: 100%;
+    z-index: 100;
 }
 
 nav {
@@ -9,10 +10,15 @@ nav {
     align-items: center;
     gap: 26px;
     padding: 20px 40px 20px 40px;
-    background-image: url('/assets/woman.png');
-    background-size: cover;
+    transition: .5s;
 }
 
+nav.scrolled {
+    background-color: #22222290;
+    backdrop-filter: blur( 13px );
+    -webkit-backdrop-filter: blur( 13px );
+    transition: .5s;
+}
 
 a {
     text-decoration: none;

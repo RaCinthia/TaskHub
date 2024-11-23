@@ -1,22 +1,29 @@
 .main-section {
     background-image: url('/assets/woman.png');
+    background-position: center;
     background-size: cover;
     color: #ffff;
     width: 100%;
     height: 670px;
-    padding: 90px;
+    padding: 150px 90px 90px 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Corte transversal */
+    clip-path: polygon(0 0, 100% 0, 100% 92%, 0 100%);
 }
 
-.main-section-wrap {
+.main-section-wrapper {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    margin: 0 50px 0 50px;
+    flex-grow: 1;
 }
 
 .presentation {
-    width: 550px;
+    width: 540px;
     height: 228px;
+    margin: 0 0 0 50px;
 }
 
 .presentation h1 {
@@ -27,4 +34,75 @@
     width: 450px;
     font-weight: normal;
     font-size: 28px;
+}
+
+/* Cards */
+.card-wrapper {
+    margin: 86px 145px 86px 145px;
+    display: flex;
+    gap: 65px;
+}
+
+.card {
+    width: 380px;
+    height: 290px;
+    border-radius: 35px;
+    padding: 42px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card p {
+    font-size: 20px;
+    margin: 8px 0 0 0;
+    font-weight: 500;
+}
+
+.green {
+    background-color: #82D273;
+    align-items: end;
+    text-align: end;
+}
+
+.yellow {
+    background-color: #EEE586;
+    align-items: center;
+    text-align: center;
+}
+
+.red {
+    background-color: #ED7E7E;
+}
+
+.rectangle {
+    background-color: #c0e8b9;
+    width: 100%;
+    height: 44rem;
+    position: absolute;
+    top: 58.5rem;
+    z-index: -100;
+}
+
+/* Sessão de Comentários */
+.comments {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.comments h1 {
+    font-size: 42px;
+}
+
+.subtitle {
+    color: rgba(0, 0, 0, 0.552);
+    font-size: 20px;
+}
+
+.carousel-wrapper {
+    display: flex;
+    flex-direction: row;
+    margin: 50px 100px 50px 100px;
 }
