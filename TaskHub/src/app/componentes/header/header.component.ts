@@ -7,12 +7,13 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './header.component.html',
   styleUrl: './header.component.css'
 })
-export class HeaderComponent implements OnInit {
+export class HeaderComponent  {
 
-  ngOnInit(): void {
-    window.addEventListener('scroll', ()=> {
-      let nav = document.querySelector('.nav') as HTMLElement;
-      nav?.classList.toggle('scrolled', window.scrollY > 0);
-    });
-  }
+  // ngOnInit(): void {
+  //   window.addEventListener('scroll', ()=> {
+  //     let nav = document.querySelector('.nav') as HTMLElement;
+  //     nav?.classList.toggle('scrolled', window.scrollY > 0);
+  //   });
+  // }
+  // implements OnInit
 }
