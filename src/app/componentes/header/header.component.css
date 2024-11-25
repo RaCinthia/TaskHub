@@ -1,0 +1,40 @@
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+nav {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 26px;
+    padding: 20px 40px 20px 40px;
+    transition: .5s;
+}
+
+nav.scrolled {
+    background-color: #22222290;
+    backdrop-filter: blur( 13px );
+    -webkit-backdrop-filter: blur( 13px );
+    transition: .5s;
+}
+
+a {
+    text-decoration: none;
+    color: #ffff;
+}
+
+.entrar-btn {
+    background-color: #82D173;
+    color: #000;
+    width: 135px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    margin: 0 0 0 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
