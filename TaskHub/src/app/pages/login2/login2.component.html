@@ -2,20 +2,20 @@
     <main>
         <section>
             <div class="card">
-                <img src="assets/Fechar.svg" id="fechar">
-                <img src="assets/Logo.svg" id="logo">
+                <img src="assets/fechar.svg" id="fechar">
+                <img src="assets/logo.svg" id="logo">
                 <div class="senha">
                     <input type="text" id="user" autocomplete="off" required>
                     <label for="user">Senha</label>
                 </div>
                 <b>Ou faça login com:</b>
                 <div class="logins">
-                    <img src="assets/Google.svg">
-                    <img src="assets/Microsoft.svg">
-                    <img src="assets/Apple.svg">
+                    <img src="assets/google.svg">
+                    <img src="assets/microsoft.svg">
+                    <img src="assets/apple.svg">
                 </div>
-                <button id="continuar"> Continuar </button>
-                <button  [routerLink]="['/login']" id="voltar"> Voltar </button>
+                <a routerLink="/home" id="continuar"> Continuar </a>
+                <a routerLink="/login" id="voltar"> Voltar </a>
                 <div class="links">
                     <a> Crie uma conta </a>
                     <b>.</b>
