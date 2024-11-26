@@ -6,14 +6,14 @@ body{
 }
 
 .container{
-    height: 1150px;
+    height: 1100px;
     width: 430px;
     display: flex;
     flex-direction: column;
     padding: 10px;
-    position: absolute;
     gap: 3%;
-    left: 3%;
+    margin-left: 20px;
+    position: absolute;
 }
 
 #card1{
@@ -24,11 +24,12 @@ body{
     justify-content: start;
     background-color:rgb(255, 246, 147);
     border-radius: 10px;
-    padding: 15px;
+    padding-top: 30px;
 }
 
 #card1 h2{
     text-align: center;
+    font-size: 30px;
 }
 
 #card2{
@@ -39,6 +40,8 @@ body{
     justify-content: start;
     background-color:rgb(255, 246, 147);
     border-radius: 10px;
+    gap: 30px;
+    padding-top: 30px;
 }
 
 #card2 h2{
@@ -63,4 +66,136 @@ body{
     font-size: 45px;
     color: rgb(237, 126, 126);
     margin: 20px 0px 20px;
+}
+
+#card2 img{
+    width: 375px;
+    margin-left: 5%;
+}
+
+#titulo{
+    font-size: 26px;
+    position: relative;
+    left: 28%;
+    top: 2%;
+    margin-bottom: 40px;
+}
+
+.template-wrapper {
+    width: 90%;
+    height: 227px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 245px;
+    gap: 40px;
+}
+
+.template-wrapper2 {
+    width: 50%;
+    height: 227px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 180px;
+}
+
+.template {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent;
+    gap: 15px;
+}
+
+#img1 {
+    width: 250px;
+    height: 150px;
+    background-image: url("/assets/negocios.jpg");
+    /* Garante que a imagem caiba certinho na div, sem cortes */
+    background-size: cover;
+    border-radius: 12px;
+}
+
+#img2 {
+    width: 250px;
+    height: 150px;
+    background-image: url("/assets/desing.jpg");
+    /* Garante que a imagem caiba certinho na div, sem cortes */
+    background-size: cover;
+    border-radius: 12px;
+}
+
+#img3 {
+    width: 250px;
+    height: 150px;
+    background-image: url("/assets/calendario.jpg");
+    /* Garante que a imagem caiba certinho na div, sem cortes */
+    background-size: cover;
+    border-radius: 12px;
+}
+
+#img4 {
+    width: 250px;
+    height: 150px;
+    background-image: url("/assets/gestao.jpg");
+    /* Garante que a imagem caiba certinho na div, sem cortes */
+    background-size: cover;
+    border-radius: 12px;
+}
+
+#img5 {
+    width: 250px;
+    height: 150px;
+    background-image: url("/assets/planejamento.jpg");
+    /* Garante que a imagem caiba certinho na div, sem cortes */
+    background-size: cover;
+    border-radius: 12px;
+}
+
+#img6 {
+    width: 250px;
+    height: 150px;
+    background-color: rgb(93, 102, 93);
+    /* Garante que a imagem caiba certinho na div, sem cortes */
+    background-size: cover;
+    border-radius: 12px;
+}
+
+#img7 {
+    width: 250px;
+    height: 150px;
+    background-image: url("/assets/back-end.jpg");
+    /* Garante que a imagem caiba certinho na div, sem cortes */
+    background-size: cover;
+    border-radius: 12px;
+}
+
+#img8 {
+    width: 250px;
+    height: 150px;
+    background-image: url("/assets/natal.jpg");
+    /* Garante que a imagem caiba certinho na div, sem cortes */
+    background-size: cover;
+    border-radius: 12px;
+}
+
+#img9 {
+    width: 250px;
+    height: 150px;
+    background-color: rgba(77, 77, 77);
+    background-size: cover;
+    border-radius: 12px;
+}
+
+.template h2 {
+    font-size: 21px;
+    padding: 0px;
+}
+
+#criar{
+    font-size: 23px;
+    padding: 0px;
+    font-weight: bold;
 }
