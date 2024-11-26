@@ -3,7 +3,7 @@ body{
     background-image: linear-gradient(to right,rgb(153, 212, 114), rgb(238, 229, 134), rgba(237, 126, 126, 0.637));
     display: flex;
     justify-content: center;
-    margin-top: 5%;
+    margin-top: 130px;
 }
 
 .card{
@@ -47,7 +47,6 @@ body{
 .senha > label{
     position: absolute;
     left: 12%;
-    margin-top: 5px;
     font-size: 18px;
     padding: 10px;
     transition: .5s;
@@ -79,11 +78,15 @@ b{
 #continuar{
     width: 200px;
     height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border: none;
     border-radius: 15px;
     background-color: rgb(29,134,255);
     color: white;
     font-weight: bold;
+    text-decoration: none;
     font-size: 16px;
 }
 
@@ -96,12 +99,16 @@ b{
     width: 150px;
     height: 55px;
     border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 15px;
     background-color: rgb(209,209,209);
     color: black;
     font-weight: bold;
+    text-decoration: none;
     font-size: 16px;
-    margin-bottom: 3%;
+    margin-bottom: 11px;
 }
 
 #voltar:hover{

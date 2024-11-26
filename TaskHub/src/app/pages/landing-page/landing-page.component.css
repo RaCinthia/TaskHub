@@ -140,7 +140,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 50px;
 }
 
 .comments h1 {
@@ -232,86 +231,3 @@
     bottom: -41px;
     position: absolute;
 }
-
-/* Plataformas */
-.platform-wrapper .title {
-    margin: 160px 0 100px 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    font-family: "Parkinsans", "Inter", "sans-serif";
-    font-size: 42px;
-}
-
-.platform-wrapper img {
-    width: 560px;
-}
-
-.web, .mobile {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 5rem;
-    margin: 70px;
-}
-
-.web .description {
-    width: 410px;
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-    text-align: right;
-    gap: 15px;
-}
-
-.description h1 {
-    font-family: "Parkinsans", "Inter", "sans-serif";
-    font-size: 32px;
-}
-
-.description p {
-    font-size: 18px;
-    font-weight: bold;
-    color: rgb(84, 84, 84);
-}
-
-.mobile {
-    flex-direction: row-reverse;
-    margin-top: 145px;
-}
-
-.mobile .description {
-    width: 410px;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
-
-/* Mensagem do final */
-.message {
-    width: 50rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-}
-
-.message h1 {
-    font-family: "Parkinsans", "Inter", "sans-serif";
-    font-size: 36px;
-}
-
-.message p {
-    font-size: 22px;
-    text-align: center;
-}
-
-.message span {
-    font-weight: bold;
-    color: rgb(84, 84, 84);
-}
-
-/* Footer */
