@@ -140,7 +140,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 50px;
 }
 
 .comments h1 {
@@ -255,7 +254,7 @@
 .gradient-1 {
     width: 80rem;
     height: 90rem;
-    background-image: radial-gradient(circle, #ec7f7d92, #fff9b3, white, rgba(255, 255, 255, 0.199));
+    background-image: radial-gradient(circle, #ec7f7d92, #fff9b3, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
     top: -6rem;
     right: -34rem;
     position: absolute;
@@ -266,7 +265,7 @@
     width: 82rem;
     height: 110rem;
     rotate: -40deg;
-    background-image: radial-gradient(ellipse, #ec7f7dad, #81d273ab, white, rgba(255, 255, 255, 0.237));
+    background-image: radial-gradient(ellipse, #ec7f7dad, #81d273ab, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
     bottom: -30rem;
     left: -30rem;
     position: absolute;
