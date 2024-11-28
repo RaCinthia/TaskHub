@@ -1,0 +1,91 @@
+footer {
+    height: 18rem;
+    background-color: #fffcd8;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.rectangle {
+    width: 99vw;
+    height: 38px;
+    background-color: #fff9b3;
+    clip-path: polygon(0 75%, 100% 0, 100% 100%, 0 100%);
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 32rem;
+    margin: 0 10rem 0 10rem;
+}
+
+.left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+
+.left img {
+    width: 80px;
+}
+
+.left h2 {
+    font-size: 30px;
+    font-family: "Parkinsans", "Inter", "sans-serif";
+}
+
+.right {
+    display: flex;
+    flex-direction: row;
+    gap: 6rem;
+}
+
+.right h4 {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.info {
+    line-height: 2;
+}
+
+.info h5 {
+    color: rgba(0, 0, 0, 0.479);
+}
+
+.info h5:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #82d273;
+}
+
+.stores {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.stores img:hover {
+    cursor: pointer;
+}
+
+.copyright {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff9b3;
+    color: rgba(0, 0, 0, 0.44);
+    font-size: 12px;
+    padding: 16px;
+}
