@@ -1,3 +1,7 @@
+main {
+    overflow: hidden;
+}
+
 .main-section {
     background-image: url('/assets/woman.png');
     background-position: center;
@@ -153,8 +157,17 @@
 }
 
 .comments-wrapper {
-    margin: 65px 100px 50px 100px;
+    /* margin: 65px 100px 50px 100px; */
+    margin-top: 65px;
+    margin-bottom: 50px;
+    padding-bottom: 42px;
+    overflow-x: scroll;
+    width: 88rem;
 }
+
+.comments-wrapper::-webkit-scrollbar {
+    display: none;
+  }
 
 .arrows {
     width: 60px;
@@ -174,13 +187,16 @@
 }
 
 .left {
-    left: 0px;
+    left: 35px;
     box-shadow: 5px 5px 10px #2b452684;
+    z-index: 100;
 }
 
 .right {
-    right: 0px;
+    position: absolute;
+    right: 35px;
     box-shadow: -5px 5px 10px #2b452684;
+    z-index: 100;
 }
 .carousel-wrapper {
     display: flex;
@@ -201,6 +217,7 @@
     padding: 25px 30px 30px 30px;
     box-shadow: 4px 8px 10px rgba(0, 0, 0, 0.241);
     position: relative;
+    flex-shrink: 0;
 }
 
 .carousel-card .stars {
@@ -238,7 +255,7 @@
 }
 
 .platform-wrapper .title {
-    margin: 160px 0 100px 0;
+    margin: 120px 0 100px 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -279,6 +296,25 @@
     justify-content: center;
     gap: 5rem;
     margin: 70px;
+}
+
+.hidden-left .hidden-right {
+    transition: all 2s ease-in-out;
+    opacity: 0;
+}
+
+.from-left {
+    transform: translateX(-100%);
+}
+
+.from-right {
+    transform: translateX(50%);
+}
+
+.show {
+    transition: all 2s ease-in-out;
+    transform: translateX(0);
+    opacity: 1;
 }
 
 .web .description {
