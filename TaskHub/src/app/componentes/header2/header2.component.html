@@ -3,23 +3,62 @@
     <img id="logo" src="/assets/logo.svg">
     <button id="btn-logo" routerLink="/home">TaskHub</button>
     </div>
-    <section>
+    <section class="menu">
         <div class="dropdown-menu">
             <div>
                 <button id="meus-projetos">Meus Projetos</button>
                 <img src="/assets/down.svg">
+                <div class="content">
+                    <button>Projeto de teste</button>
+                    <button>Planejamento do dia</button>
+                    <button>Projeto de back</button>
+                    <button>Festa de Natal</button>
+                </div>
             </div>
-            <div>
+        </div>
+            <div class="dropdown-menu">
                 <button id="recentes">Recentes</button>
                 <img src="/assets/down.svg">
+                <div class="content" id="c1">
+                    <button>Planejamento do dia</button>
+                </div>
             </div>
-            <div>
+            <div class="dropdown-menu">
                 <button id="criar">Criar</button>
+                <div class="content" id="c2">
+                    <button>Criar com template</button>
+                    <button>Criar em branco</button>
+                </div>
+            </div>
+    </section>
+    <section class="s_menu">
+        <div class="sidebar">
+            <button class="user">
+                <b>Catzinho</b>
+                <img src="/assets/user.svg">
+            </button>
+            <div class="s_content">
+                <div id="content">
+                    <img id="user" src="/assets/user.svg">
+                    <h2>Catzinho</h2>
+                    <h3>Conta</h3>
+                    <button>Alternar contas</button>
+                    <button>Gerenciar conta</button>
+                    <hr>
+                    <h3>TaskHub</h3>
+                    <button>Perfil</button>
+                    <button>Atividades</button>
+                    <button>Acessibilidade</button>
+                    <button>Configurações</button>
+                    <hr>
+                    <h3>Suporte</h3>
+                    <button>Ajuda</button>
+                    <button>Atalhos</button>
+                    <hr>
+                    <button id="logout">Sair</button>
+                    <h3>Versão: 1.0.1</h3>
+                </div>
             </div>
         </div>
     </section>
-        <div class="user">
-            <b>Catzinho</b>
-            <img src="/assets/user.svg">
-        </div>
 </header>

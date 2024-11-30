@@ -1,0 +1,8 @@
+.template{
+    width: 1700px;
+    height: 800px;
+    display: flex;
+    position: absolute;
+    left: 5%;
+    background-color: rgb(248, 203, 97);
+}

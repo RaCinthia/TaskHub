@@ -12,7 +12,7 @@ body{
     flex-direction: column;
     padding: 10px;
     gap: 3%;
-    margin-left: 20px;
+    margin: 30px 0px 0px 20px;
     position: absolute;
 }
 
@@ -74,30 +74,41 @@ body{
 }
 
 #titulo{
+    width: 230px;
     font-size: 26px;
     position: relative;
     left: 28%;
     top: 2%;
-    margin-bottom: 40px;
+    margin: 10px 0px 40px 0px;
 }
 
 .template-wrapper {
-    width: 90%;
+    width: 70%;
     height: 227px; 
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-left: 245px;
+    margin-left: 470px;
     gap: 40px;
 }
 
-.template-wrapper2 {
+.template-wrapper1 {
     width: 50%;
     height: 227px; 
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin-left: 180px;
+}
+
+.template-wrapper2 {
+    width: 70%;
+    height: 227px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 430px;
+    gap: 40px;
 }
 
 .template {
@@ -198,4 +209,16 @@ body{
     font-size: 23px;
     padding: 0px;
     font-weight: bold;
+}
+
+.next{
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
+.next img{
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
 }

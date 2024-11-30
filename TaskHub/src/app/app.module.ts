@@ -13,6 +13,8 @@ import { LoginComponent } from './pages/login/login.component';
 import { Login2Component } from './pages/login2/login2.component';
 import { Header2Component } from './componentes/header2/header2.component';
 import { Footer2Component } from './componentes/footer2/footer2.component';
+import { TemplateComponent } from './pages/template/template.component';
+import { BlankComponent } from './pages/blank/blank.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +28,8 @@ import { Footer2Component } from './componentes/footer2/footer2.component';
     Login2Component,
     Header2Component,
     Footer2Component,
+    TemplateComponent,
+    BlankComponent,
   ],
   imports: [
     BrowserModule,
