@@ -20,6 +20,8 @@ header{
 
 #btn-logo{
     background-color: transparent;
+    font-family: "Parkinsans", "Inter", "sans-serif";
+    font-weight: bold;
     font-size: 25px;
     border: none;
 }
