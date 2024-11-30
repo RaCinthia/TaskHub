@@ -26,6 +26,7 @@ a{
 }
 
 .entrar-btn {
+    border: none;
     background-color: #82D173;
     color: #000;
     width: 135px;
@@ -37,4 +38,28 @@ a{
     margin: 0 0 0 10px;
     font-weight: bold;
     font-size: 18px;
+}
+
+/* Responsividade */
+@media screen and (max-width: 636px) {
+
+    header {
+        position: absolute;
+    }
+
+    nav {
+        padding: 20px;
+    }
+
+    a {
+        display: none;
+    }
+
+    .entrar-btn {
+        background-color: #00000000;
+        color: white;
+        width: 70px;
+        text-decoration: underline;
+    }
+    
 }

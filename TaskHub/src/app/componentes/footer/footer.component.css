@@ -1,13 +1,14 @@
 footer {
-    height: 18rem;
+    box-sizing: border-box;
+    height: auto;
     background-color: #fffcd8;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding: 1rem;
 }
 
 .rectangle {
-    width: 99vw;
     height: 38px;
     background-color: #fff9b3;
     clip-path: polygon(0 75%, 100% 0, 100% 100%, 0 100%);
@@ -18,37 +19,42 @@ footer {
     justify-content: center;
     align-items: center;
     flex-grow: 1;
+    flex-wrap: wrap;
 }
 
 .main {
+    width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
-    gap: 32rem;
-    margin: 0 10rem 0 10rem;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 1rem;
+    margin: 0 8rem 0 8rem;
+    flex-wrap: wrap;
 }
 
 .left {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 30px;
+    gap: 1rem;
 }
 
 .left img {
-    width: 80px;
+    width: 60px;
 }
 
 .left h2 {
-    font-size: 30px;
+    font-size: 24px;
     font-family: "Parkinsans", "Inter", "sans-serif";
 }
 
 .right {
     display: flex;
     flex-direction: row;
-    gap: 6rem;
+    gap: 2rem;
+    flex-wrap: wrap;
 }
 
 .right h4 {
@@ -57,7 +63,7 @@ footer {
 }
 
 .info {
-    line-height: 2;
+    line-height: 1.8;
 }
 
 .info h5 {
@@ -76,6 +82,10 @@ footer {
     gap: 8px;
 }
 
+.stores img {
+    max-width: 100%;
+}
+
 .stores img:hover {
     cursor: pointer;
 }
@@ -88,4 +98,43 @@ footer {
     color: rgba(0, 0, 0, 0.44);
     font-size: 12px;
     padding: 16px;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .main {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .right {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .left h2 {
+        font-size: 20px;
+    }
+
+    .left img {
+        width: 50px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .main {
+        padding: 1rem 0;
+    }
+
+    .left h2 {
+        font-size: 18px;
+    }
+
+    .right h4 {
+        font-size: 14px;
+    }
+
+    .stores img {
+        width: 120px;
+    }
 }

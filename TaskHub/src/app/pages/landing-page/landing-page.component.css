@@ -43,9 +43,13 @@ main {
 
 /* Cards */
 .card-wrapper {
-    margin: 86px 145px 12rem 145px;
+    margin: 86px 0 12rem 0;
+    padding: 0 5rem 0 5rem;
     display: flex;
     gap: 65px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 .card {
@@ -56,6 +60,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    transition: all .5s ease-in-out;
 }
 
 .card h2 {
@@ -83,7 +88,7 @@ main {
 .green .like {
     position: absolute;
     right: 20px;
-    bottom: -25px;
+    bottom: -48px;
     rotate: 8deg;
 }
 
@@ -135,6 +140,7 @@ main {
     height: 38rem;
     position: absolute;
     top: 58.5rem;
+    transition: all .5s ease-in-out;
     z-index: -100;
 }
 
@@ -144,6 +150,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: all .5s;
 }
 
 .comments h1 {
@@ -373,4 +380,160 @@ main {
 .message span {
     font-weight: bold;
     color: rgb(84, 84, 84);
+}
+
+/* Responsividade */
+@media screen and (max-width: 1020px) {
+
+    .main-section {
+        width: auto;
+        padding: 42px;
+        position: relative;
+    }
+
+    .main-section-wrapper img {
+        width: 60px;
+        height: 60px;
+        top: 20px;
+        left: 25px;
+        position: absolute;
+    }
+
+    .presentation {
+        margin: 0;
+        width: 280px;
+        position: relative;
+    }
+
+    .presentation h1 {
+        font-size: 40px;
+    }
+
+    .presentation h2 {
+        font-size: 22.5px;
+        width: 100%;
+    }
+
+    .card {
+        width: 280px;
+        flex-shrink: 0;
+    }
+
+    .card h2 {
+        font-size: 22px;
+    }
+
+    .card p {
+        font-size: 18px;
+    }
+
+    .like{
+        display: none;
+    }
+
+    .tracing-2 {
+        width: 316px;
+        left: -20px;
+    }
+
+    .tracing-3 {
+        rotate: 20deg;
+        
+    }
+
+    .rectangle {
+        top: 60rem;
+        height: 80.5rem;
+    }
+
+    .comments h1 {
+        font-size: 38px;
+    }
+
+    .comments span {
+        font-size: 18px;
+    }
+
+    .arrows {
+        display: none;
+    }
+
+    .comments-wrapper {
+        width: 100%;
+    }
+
+    .carousel-card {
+        box-sizing: border-box;
+        width: 280px;
+        gap: 10px;
+    }
+
+    .platform-wrapper {
+        position: relative;
+    }
+
+    .platform-wrapper .title {
+        margin-top: 100px;
+        margin-bottom: 80px;
+        font-size: 36px;
+    }
+
+    .platform-wrapper img {
+        width: 280px;
+    }
+
+    .web {
+        width: 100%;
+        margin: 0;
+        padding: 30px;
+        flex-direction: column;
+    }
+
+    .mobile {
+        width: 100%;
+        margin: 0;
+        padding: 20px;
+        flex-direction: column;
+    }
+
+    .description h1 {
+        width: 270px;
+    }
+
+    .description p {
+        width: 270px;
+    }
+
+    .web .description {
+        padding-right: 45px;
+    }
+
+    .mobile .description {
+        padding-left: 45px;
+    }
+    
+    .message {
+        width: 90vw;
+        margin-top: 40px;
+        margin-bottom: 116px;
+    }
+
+    .message h1 {
+        font-size: 30px;
+    }
+
+    .message p {
+        font-size: 18px;
+        padding: 0 20px 0 20px;
+    }
+
+}
+
+@media screen and (max-width: 1446px) {
+
+    .rectangle {
+        height: 60rem;
+        transition: all .5s ease-in-out;
+    }
+
 }
